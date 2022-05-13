@@ -93,9 +93,7 @@ document.addEventListener("keyup", (e)=>{
         setTwo();
     }
     document.getElementById("score").innerText = score;
-    if(score === 2048){
-        alert("GANASTE!")
-    }
+ 
 })
 
 function filterZero(row){

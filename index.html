@@ -16,9 +16,9 @@
         
     </div>
 
-    <button onclick="slideUp(),setTwo();" class="botonArriba">arriba</button>
-    <button onclick="slideDown(),setTwo();" class="botonAbajo">abajo</button>
-    <button onclick="slideLeft(),setTwo();" class="botonIzquierda">izquierda</button>
-    <button onclick="slideRight(),setTwo();" class="botonDerecha">derecha</button>
+    <button onclick="slideUp(),setTwo(),document.getElementById(`score`).innerText = score;" class="botonArriba">arriba</button>
+    <button onclick="slideDown(),setTwo(),document.getElementById(`score`).innerText = score;;" class="botonAbajo">abajo</button>
+    <button onclick="slideLeft(),setTwo(),document.getElementById(`score`).innerText = score;;" class="botonIzquierda">izquierda</button>
+    <button onclick="slideRight(),setTwo(),document.getElementById(`score`).innerText = score;;" class="botonDerecha">derecha</button>
 </body>
 </html>
